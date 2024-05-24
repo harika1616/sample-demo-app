@@ -1,0 +1,14 @@
+.footer {
+  background-color: #fff;
+  padding: 20px 0;
+}
+.footer-right-text {
+  color: #6f8e00;
+}
+.footer div {
+  margin: 0;
+}
+
+.footer .container {
+  height: 100%;
+}

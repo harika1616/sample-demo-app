@@ -1,0 +1,34 @@
+#two-column-section {
+  background-color: #fff;
+}
+
+#two-column-section h2 {
+  margin-bottom: 20px;
+}
+
+.left-section {
+  height: 100%; /* Set left section height to 100% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-section {
+  height: 100%; /* Set right section height to 100% */
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section h2 {
+  margin-bottom: 0; /* Remove margin bottom from heading */
+}
+
+.right-section .nav-item {
+  margin-bottom: 1rem; /* Add margin between nav items */
+}
+
+.right-section-links-section {
+  background-color: #dbdbdb;
+  font-weight: 500;
+  height: 100%;
+}

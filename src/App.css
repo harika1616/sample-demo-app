@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+main {
+  padding: 20px 0;
+}
+
+#services {
+  padding: 20px 0;
+}
+
+#services h2 {
+  margin-bottom: 20px;
+}
+
+#two-column-section {
+  background-color: #fff;
+}
+
+#two-column-section h2 {
+  margin-bottom: 20px;
+}
+
+#gallery {
+  padding: 20px 0;
+}
+
+#gallery h2 {
+  margin-bottom: 20px;
+}
+
+.gallery-box {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+.card {
+  border-radius: 0 !important; /* Override Bootstrap's default rounded corners */
+  border-style: none;
+}
+
+.nav-bw-section {
+  background-color: #f2efef;
+}
+
+.gallery-text {
+  text-align: center;
+}
+
+/* Remove margin from the Gallery section header */
+#gallery h2 {
+  margin-top: 0;
+}
+
+/* Ensure the gallery items have no gutter space */
+.no-gutters [class^='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.footer-bg-light {
+  background-color: #fff;
+}

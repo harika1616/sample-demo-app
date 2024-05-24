@@ -1,0 +1,15 @@
+.custom-navbar {
+  background-color: #152738; /* Dark Blue color */
+  width: 100%;
+}
+
+.custom-navbar .nav-link {
+  color: white; /* Ensure the text color is visible on the dark background */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ddd; /* Lighter color on hover */
+}
+.ml-auto {
+  margin-left: auto !important; /* Ensures ml-auto class works as expected */
+}
